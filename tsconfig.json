@@ -27,7 +27,8 @@
     /* Path Aliases */
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      "@ui/*": ["./src/components/ui/*"] // Shadcn UI components
     }
   },
   "include": [

@@ -1,29 +1,52 @@
-# Create T3 App
+<h1 align="center">🧩 T3 Portfolio Project</h1>
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+<p align="center">
+  <b>A modern full-stack web app built with the powerful T3 Stack</b><br />
+  <i>Crafted by Clayton Cunningham</i><br />
+  📧 <a href="mailto:claytoncunningham74@gmail.com">claytoncunningham74@gmail.com</a>
+</p>
 
-## What's next? How do I make an app with this?
+<p align="center">
+  <img alt="Tech Stack" src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img alt="TailwindCSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img alt="Prisma" src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
+  <img alt="tRPC" src="https://img.shields.io/badge/tRPC-2596be?style=for-the-badge&logo=trpc&logoColor=white" />
+  <img alt="NextAuth.js" src="https://img.shields.io/badge/NextAuth.js-000?style=for-the-badge&logo=next.js&logoColor=white" />
+</p>
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+---
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## 📌 Overview
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+This project is a personal portfolio starter built using the [T3 Stack](https://create.t3.gg/), designed for scalability, developer happiness, and full type safety from database to frontend.
 
-## Learn More
+> ✅ Built with production-grade tools and best practices.  
+> 🚀 Ideal foundation for SaaS apps, dashboards, and personal projects.
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+---
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## ✨ Features
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- ⚡ **End-to-End Type Safety** with TypeScript and tRPC
+- 🧠 **Authentication** via NextAuth.js
+- 🔗 **Database Integration** using Prisma and Drizzle ORM
+- 🎨 **Beautiful UI** with Tailwind CSS
+- 🧱 **Modular Architecture** with clean and scalable project structure
 
-## How do I deploy this?
+---
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## 🔧 Getting Started
+
+To run this app locally:
+
+```bash
+# Clone the repository
+git clone <your-repo-url>
+cd <project-directory>
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
